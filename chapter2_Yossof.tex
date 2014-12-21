@@ -1,4 +1,6 @@
 \documentclass[12pt,twoside,notitlepage]{article}
+\usepackage{enumerate}
+\usepackage{paralist}
 
 \begin{document}
 
@@ -9,7 +11,22 @@
 Notes Here.
 
 \subsection{Solutions}
+\setdefaultleftmargin{30pt}{}{}{}{}{}
+1.
 
-Problem 1. 
+
+\begin{enumerate}[(a)]
+\setlength\itemindent{20pt}
+\item With large n and small p, a less flexible method may not use the large 
+  amount of observations available. A flexible method would be able to better 
+  estimate the true f, just like Figure 2.3 -- 2.6. Caution must be taken not 
+  to over-fit the data.
+\item With small n and large p, a less flexible method may protect us from 
+fluctuations in the observation due to small n. 
+\item A nonlinear relationship between p and the response, may require a more 
+  flexible method as in shown in Figure 2.11.
+\item The choice of method may be independent of the variance in the error.
+\end{enumerate}
+
 
 \end{document}
